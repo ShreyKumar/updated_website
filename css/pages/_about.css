@@ -1,0 +1,126 @@
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 180px 180px 180px 180px;
+  -moz-border-radius: 180px 180px 180px 180px;
+  -webkit-border-radius: 180px 180px 180px 180px;
+}
+#about #profile {
+  position: relative;
+  height: 230px;
+}
+#about #profile .desc {
+  position: absolute;
+  top: 0;
+  margin-left: 30%;
+  line-height: 22px;
+  margin-top: 0;
+}
+#about #expertice {
+  position: relative;
+}
+#about #skills,
+#about #ratings {
+  list-style-type: none;
+  font-size: 17px;
+  width: 50%;
+}
+#about #skills {
+  padding-left: 0;
+}
+#about #skills li,
+#about #ratings li {
+  display: block;
+  height: 50px;
+  margin-left: 26%;
+}
+#about #ratings .fa-star-o {
+  color: #adabab;
+}
+#about #ratings .fa-star,
+#about #ratings .fa-star-half-o {
+  color: #525252;
+}
+#about #skills li {
+  padding-top: 10px;
+}
+#about #ratings li {
+  font-size: 40px;
+}
+#about #ratings {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  right: 0;
+}
+#about #testimonials {
+  height: 170px;
+  position: relative;
+}
+#about .testi {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+#about .testi .pic img {
+  width: 100px;
+  height: 100px;
+}
+#about .testi .name {
+  font-size: 20px;
+  margin-top: 15px;
+}
+#about .testi:focus {
+  outline-width: 0;
+}
+#about .testi .rec {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  color: #8a8a8a;
+  font-style: italic;
+  line-height: 23px;
+  font-size: 15px;
+  padding-left: 30px;
+}
+#about .testi .title,
+#about .testi .name,
+#about .testi .pic {
+  width: 20%;
+}
+#about #testimonials .next-arrow,
+#about #testimonials .prev-arrow {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 60px;
+  color: #adabab;
+}
+#about #testimonials .next-arrow:hover,
+#about #testimonials .prev-arrow:hover {
+  color: #4c4c4c;
+}
+#about #testimonials .prev-arrow {
+  left: -60px;
+}
+#about #testimonials .next-arrow {
+  right: -60px;
+}
+#about .nav {
+  margin-top: 15px;
+}
+#about .nav-dots {
+  list-style-type: none;
+  display: inline-block;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  margin-left: 36%;
+}
+#about .nav-dots li {
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  position: relative;
+}

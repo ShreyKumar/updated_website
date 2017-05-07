@@ -1,0 +1,68 @@
+#home .name {
+  font-family: 'Cookie', cursive;
+  font-size: 80px;
+}
+#home .greet {
+  font-family: 'Jura', sans-serif;
+}
+#home .desc {
+  font-family: 'Fenix', serif;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+#home .start {
+  width: 150px;
+  text-align: center;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home .start a {
+  color: black;
+  text-decoration: none;
+  font-size: 26px;
+}
+#home .start a:hover {
+
+}
+#home .startu {
+  background-color: black;
+  height: 1px;
+  width: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+#home .header {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 0;
+  color: #000000;
+}
+#home #socialmedia {
+  list-style-type: none;
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  padding-left: 0;
+  margin-top: 80px;
+}
+#home #socialmedia li {
+  display: block;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+#home #socialmedia li i {
+  font-size: 30px;
+}
+#home #socialmedia li a,
+#home #socialmedia li a:visited {
+  color: black;
+}
