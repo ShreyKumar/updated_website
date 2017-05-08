@@ -28,6 +28,7 @@
   font-size: 20px;
   margin-bottom: 10px;
   display: inline-block;
+  margin-top: -4px;
 }
 #eduwork ul .event .date {
   color: #b7b7b7;
