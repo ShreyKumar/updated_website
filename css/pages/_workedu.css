@@ -1,3 +1,7 @@
+#eduwork {
+  display: block;
+  height: 2005px;
+}
 #eduwork > ul {
   display: inline-block;
   float: left;

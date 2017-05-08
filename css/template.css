@@ -28,6 +28,7 @@ h1.title::after{
 #about, #education, #eduwork, #projects, #contact {
   padding-left: 80px;
   padding-right: 80px;
+  margin-top: 100px;
 }
 .btn {
   height: 40px;

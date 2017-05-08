@@ -61,6 +61,8 @@
   width: 100%;
   position: relative;
   height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 #about .testi .pic img {
   width: 100px;
