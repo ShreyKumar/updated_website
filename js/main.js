@@ -27,7 +27,7 @@ $(function(){
 
   $("#projects-container").slick({
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 2500,
     dots: true,
     nextArrow: "<i class='fa fa-chevron-circle-right next-arrow'></i>",
     prevArrow: "<i class='fa fa-chevron-circle-left prev-arrow'></i>"
@@ -37,7 +37,6 @@ $(function(){
   //scroll event icon
   $(window).scroll(function(){
     var top = $(window).scrollTop();
-    console.log(top);
     if(top <= 100){
       var opac = top/100;
       $("#jumpup").css("opacity", opac);
