@@ -3,7 +3,7 @@ $(function(){
     if($(".startu").hasClass("off")){
       $(".startu").animate({
         width: "+=125"
-      }, 500);
+      }, 200);
       $(".startu").removeClass("off").addClass("on");
     }
   })
@@ -11,10 +11,11 @@ $(function(){
     if($(".startu").hasClass("on")){
       $(".startu").animate({
         width: "-=125"
-      }, 500);
+      }, 200);
       $(".startu").removeClass("on").addClass("off");
     }
-  })
+  });
+
 
   //slick.js
   $("#testimonials").slick({
@@ -34,13 +35,16 @@ $(function(){
   });
 
 
-  //scroll event icon
+  //jump up icon
   $(window).scroll(function(){
     var top = $(window).scrollTop();
     if(top <= 100){
-      var opac = top/100;
+      var opac = (top/100);
       $("#jumpup").css("opacity", opac);
     }
   })
+
+  //smooth.min.js
+  $("nav, #jumpup-container, .start").smoothScroll(1000);
 
 })

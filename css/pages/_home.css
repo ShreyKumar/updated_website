@@ -38,7 +38,7 @@
 }
 nav {
   height: 20px;
-  margin-top: 23px;
+  margin-top: 40px;
 }
 
 /* lnku overwrites, sorry if this is messy xD */
@@ -47,13 +47,18 @@ nav {
   margin-right: initial;
   width: 100%;
 }
+#home .lnku {
+  width: 13%;
+}
 #home .lnk a {
   font-size: 18px;
+  display: inline-block;
 }
 
 #home .outer-lnk {
   width: 20%;
   float: left;
+  padding-top: 20px;
 }
 
 #home .header {

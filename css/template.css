@@ -3,6 +3,7 @@ html {
 }
 body {
   min-height: 100%;
+  margin: 0;
 }
 /* clean this up later */
 footer {
@@ -90,10 +91,18 @@ h1.title::after{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#525252',GradientType=1 ); /* IE6-9 */
   /* background-color: black; */
 }
+#home {
+  margin-top: -39px;
+  background-color: #299cff;
+  height: 660px;
+}
 #about, #education, #eduwork, #projects, #contact, footer {
   padding-left: 80px;
   padding-right: 80px;
   margin-top: 100px;
+}
+#about {
+  margin-top: 60px;
 }
 .btn {
   height: 40px;
