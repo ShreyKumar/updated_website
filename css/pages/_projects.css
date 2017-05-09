@@ -1,11 +1,14 @@
 #projects {
   position: relative;
 }
+#projects h1.title {
+  margin-bottom: 45px;
+}
 #projects .mac {
-  width: 497px;
+  width: 498px;
   height: 385px;
   position: absolute;
-  bottom: 201px;
+  bottom: 136px;
   left: 50%;
   margin-left: -249px;
   z-index: -1;
@@ -26,10 +29,10 @@
 #projects .project img {
   width: 500px;
   height: 250px;
-  margin-bottom: 300px;
+  margin-bottom: 230px;
 }
 #projects #projects-container ul {
-  bottom: -162px;
+  bottom: 40px;
 }
 
 /* Arrows */
@@ -41,9 +44,11 @@
 }
 #projects #projects-container .prev-arrow,
 #projects #projects-container .next-arrow {
-  top: initial;
-  bottom: 0;
+  top: 136px;
 }
 #projects #projects-container .project .info {
-
+  color: #808080;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 23px;
 }
