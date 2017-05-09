@@ -9,6 +9,38 @@ footer {
   margin-bottom: 50px;
   width: 100%;
 }
+.divider {
+  display: block;
+  height: 1px;
+  width: 100px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00000000',GradientType=1 );
+}
+
+#jumpup {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  width: 45px;
+  height: 50px;
+  background-color: #7d7d7d;
+  margin-right: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 8px;
+  z-index: 2;
+  opacity: 0;
+}
+#jumpup:hover {
+  background-color: #000000;
+}
 footer > .lnks {
   color: #adadad;
   font-size: 12px;
@@ -22,7 +54,7 @@ footer > .lnks:last-child {
   text-align: right;
 }
 footer > .lnks a {
-  font-weight: bold;
+  font-weight: 600;
   color: inherit;
   text-decoration: none;
 }

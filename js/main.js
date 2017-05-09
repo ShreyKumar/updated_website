@@ -21,19 +21,27 @@ $(function(){
     autoplay: true,
     autoplaySpeed: 5000,
     dots: true,
-    nextArrow: "<i class='fa fa-arrow-circle-right next-arrow'></i>",
-    prevArrow: "<i class='fa fa-arrow-circle-left prev-arrow'></i>"
+    nextArrow: "<i class='fa fa-chevron-circle-right next-arrow'></i>",
+    prevArrow: "<i class='fa fa-chevron-circle-left prev-arrow'></i>"
   });
 
   $("#projects-container").slick({
     autoplay: true,
     autoplaySpeed: 5000,
     dots: true,
-    nextArrow: "<i class='fa fa-arrow-circle-right next-arrow'></i>",
-    prevArrow: "<i class='fa fa-arrow-circle-left prev-arrow'></i>"
+    nextArrow: "<i class='fa fa-chevron-circle-right next-arrow'></i>",
+    prevArrow: "<i class='fa fa-chevron-circle-left prev-arrow'></i>"
   });
 
 
-  //load recommendations linkedin api
+  //scroll event icon
+  $(window).scroll(function(){
+    var top = $(window).scrollTop();
+    console.log(top);
+    if(top <= 100){
+      var opac = top/100;
+      $("#jumpup").css("opacity", opac);
+    }
+  })
 
 })
