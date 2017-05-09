@@ -2,12 +2,12 @@
   position: relative;
 }
 #projects .mac {
-  width: 498px;
+  width: 497px;
   height: 385px;
   position: absolute;
-  bottom: -101px;
+  bottom: 201px;
   left: 50%;
-  margin-left: -250px;
+  margin-left: -249px;
   z-index: -1;
 }
 #projects #projects-container {
@@ -16,10 +16,34 @@
   margin-right: auto;
   z-index: 1;
 }
+#projects #projects-container:focus,
+#projects #projects-container .slick-track {
+  outline-width: 0;
+}
 #projects .project {
   height: auto;
 }
 #projects .project img {
   width: 500px;
   height: 250px;
+  margin-bottom: 300px;
+}
+#projects #projects-container ul {
+  bottom: -162px;
+}
+
+/* Arrows */
+#projects #projects-container .next-arrow {
+  right: -123px;
+}
+#projects #projects-container .prev-arrow {
+  left: -123px;
+}
+#projects #projects-container .prev-arrow,
+#projects #projects-container .next-arrow {
+  top: initial;
+  bottom: 0;
+}
+#projects #projects-container .project .info {
+
 }

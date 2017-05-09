@@ -91,24 +91,6 @@
 #about .testi .pic {
   width: 20%;
 }
-#about #testimonials .next-arrow,
-#about #testimonials .prev-arrow {
-  font-size: 30px;
-  cursor: pointer;
-  position: absolute;
-  top: 60px;
-  color: #adabab;
-}
-#about #testimonials .next-arrow:hover,
-#about #testimonials .prev-arrow:hover {
-  color: #4c4c4c;
-}
-#about #testimonials .prev-arrow {
-  left: -60px;
-}
-#about #testimonials .next-arrow {
-  right: -60px;
-}
 #about .nav {
   margin-top: 15px;
 }

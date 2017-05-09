@@ -3,7 +3,8 @@ body {
   overflow: auto;
 }
 * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
+  outline-width: 0 !important;
 }
 h1.title {
   font-weight: 100;
@@ -42,4 +43,22 @@ h1.title::after{
 }
 .btn:hover {
   background-color: #000000;
+}
+
+/* Arrows */
+.next-arrow, .prev-arrow {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 60px;
+  color: #adabab;
+}
+.next-arrow:hover, .prev-arrow:hover {
+  color: #4c4c4c;
+}
+.prev-arrow {
+  left: -60px;
+}
+.next-arrow {
+  right: -60px;
 }
