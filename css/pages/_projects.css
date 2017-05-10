@@ -6,9 +6,9 @@
 }
 #projects .mac {
   width: 497px;
-  height: 385px;
+  height: 382px;
   position: absolute;
-  bottom: 430px;
+  bottom: 431px;
   left: 50%;
   margin-left: -249px;
   z-index: -1;
@@ -31,7 +31,7 @@
   height: auto;
 }
 #projects .project img {
-  width: 500px;
+  width: 100%;
   height: 250px;
   margin-bottom: 230px;
 }

@@ -1,6 +1,6 @@
 #eduwork {
   display: block;
-  height: 210%;
+  height: auto;
 }
 #eduwork > ul {
   display: inline-block;
