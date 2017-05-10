@@ -16,6 +16,26 @@ $(function(){
     }
   });
 
+  //nav lnks
+  $("nav .lnk a").mouseenter(function(){
+    var und = $(this).children(".lnku");
+    if(und.hasClass("off")){
+      und.animate({
+        width: "100%"
+      }, 200);
+      und.removeClass("off").addClass("on");
+    }
+  })
+
+  $("nav .lnk a").mouseout(function(){
+    var und = $(this).children(".lnku");
+    if(und.hasClass("on")){
+      und.animate({
+        width: "13%"
+      }, 200);
+      und.removeClass("on").addClass("off");
+    }
+  })
 
   //slick.js
   $("#testimonials").slick({
