@@ -8,7 +8,7 @@
   width: 497px;
   height: 385px;
   position: absolute;
-  bottom: 159px;
+  bottom: 252px;
   left: 50%;
   margin-left: -249px;
   z-index: -1;
@@ -32,7 +32,7 @@
   margin-bottom: 230px;
 }
 #projects #projects-container ul {
-  bottom: 40px;
+  bottom: 160px;
 }
 
 /* Arrows */
@@ -51,6 +51,19 @@
   font-style: italic;
   font-size: 15px;
   line-height: 23px;
+}
+#projects #projects-container .project .info .txt {
+  display: block;
+  margin-bottom: 70px;
+}
+#projects #projects-container .project .info .ability {
+  background-color: #808080;
+  color: #FFFFFF;
+  margin-right: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 #projects .slick-dots {
   padding-bottom: 40px;

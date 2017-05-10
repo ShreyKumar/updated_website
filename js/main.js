@@ -1,14 +1,10 @@
 //hide everything at first except loading screen
-
 $(document).ready(function(){
   $("#loading").hide();
   $("body").css("overflow", "auto");
 })
 
 $(function(){
-  $(window).on("load", function(){
-    console.log("wut");
-  });
   $(".start").mouseenter(function(){
     if($(".startu").hasClass("off")){
       $(".startu").animate({
