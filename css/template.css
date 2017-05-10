@@ -94,7 +94,7 @@ h1.title::after{
 
 /* Loading screen */
 #loading {
-  background-color: #299cff;
+  background-color: rgb(76,172,255);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -120,8 +120,8 @@ section:not(#loading), footer {
 }
 
 #home {
-  margin-top: -39px;
-  background-color: #299cff; /* rgba(41, 156, 255, 1); */
+  margin-top: -40px;
+  background-color: rgb(76,172,255); /* rgba(41, 156, 255, 1); */
   /*
   background-image: url("../img/bg.jpg");
   background-size: cover;

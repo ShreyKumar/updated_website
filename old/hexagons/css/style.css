@@ -1,0 +1,57 @@
+body {
+    background-color: #999999;
+}
+#canvas {
+    width: 45%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+.hexagon {
+    position: relative;
+    width: 86px;
+    height: 46px;
+    background-color: #ffffff;
+    margin: 20px 0;
+    float: left;
+    margin-right: 7px;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 43px solid transparent;
+    border-right: 43px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 20px solid #ffffff;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 20px solid #ffffff;
+}
+.hexagon.unactive:before {
+    border-bottom: 20px solid transparent !important;
+}
+.hexagon.unactive:after {
+    border-top: 20px solid transparent !important;
+}
+.hexagon.unactive {
+    background-color: transparent !important;
+}
+#second {
+    top: -60px;
+}
+#third {
+    top: -120px;
+}
+#fourth {
+    top: -180px;
+}
