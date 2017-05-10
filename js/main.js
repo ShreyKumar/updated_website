@@ -1,11 +1,15 @@
 //hide everything at first except loading screen
-window.onload = function(){
-  console.log("hello");
-}
+
+$(document).ready(function(){
+  $("#loading").hide();
+  $("body").css("overflow", "auto");
+})
+
 $(function(){
-  //$("section:not(#loading), footer").hide();
   $(window).on("load", function(){
     console.log("wut");
+    $("section:not(#loading), footer").show();
+    $("#loading").hide();
   });
   $(".start").mouseenter(function(){
     if($(".startu").hasClass("off")){

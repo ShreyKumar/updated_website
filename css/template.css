@@ -65,7 +65,7 @@ footer > .lnks a:hover {
 
 body, textarea {
   font-family: 'Fenix', serif !important;
-  overflow: auto;
+  overflow: hidden;
 }
 * {
   box-sizing: border-box !important;
@@ -100,7 +100,7 @@ h1.title::after{
   position: fixed;
   z-index: 3;
   margin-top: -1px;
-  display: none;
+  display: block;
 }
 #loading h1 {
   text-align: center;
@@ -116,7 +116,7 @@ h1.title::after{
   position: absolute;
 }
 section:not(#loading), footer {
-  /* display: none; */
+   /* display: none; */
 }
 
 #home {
