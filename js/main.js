@@ -71,6 +71,8 @@ $(function(){
     if(top <= 100){
       var opac = (top/100);
       $("#jumpup").css("opacity", opac);
+    } else {
+      $("#jumpup").css("opacity", 1);
     }
   })
 
