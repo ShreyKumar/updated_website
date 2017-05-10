@@ -8,8 +8,6 @@ $(document).ready(function(){
 $(function(){
   $(window).on("load", function(){
     console.log("wut");
-    $("section:not(#loading), footer").show();
-    $("#loading").hide();
   });
   $(".start").mouseenter(function(){
     if($(".startu").hasClass("off")){
