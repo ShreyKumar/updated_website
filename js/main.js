@@ -8,7 +8,8 @@ $(function(){
   $(".start").mouseenter(function(){
     if($(".startu").hasClass("off")){
       $(".startu").animate({
-        width: "+=125"
+        width: "+=125",
+        opacity: "1"
       }, 200);
       $(".startu").removeClass("off").addClass("on");
     }
@@ -16,7 +17,8 @@ $(function(){
   $(".start").mouseout(function(){
     if($(".startu").hasClass("on")){
       $(".startu").animate({
-        width: "-=125"
+        width: "-=125",
+        opacity: "0"
       }, 200);
       $(".startu").removeClass("on").addClass("off");
     }
@@ -27,7 +29,8 @@ $(function(){
     var und = $(this).children(".lnku");
     if(und.hasClass("off")){
       und.animate({
-        width: "100%"
+        width: "100%",
+        opacity: "1"
       }, 200);
       und.removeClass("off").addClass("on");
     }
@@ -37,7 +40,8 @@ $(function(){
     var und = $(this).children(".lnku");
     if(und.hasClass("on")){
       und.animate({
-        width: "13%"
+        width: "13%",
+        opacity: "0"
       }, 200);
       und.removeClass("on").addClass("off");
     }
@@ -72,5 +76,10 @@ $(function(){
 
   //smooth.min.js
   $("nav, #jumpup-container, .start").smoothScroll(1000);
+
+  //projects alert messages
+  $(".bottom-lnks .lnk.inactive").click(function(){
+    return false;
+  })
 
 })

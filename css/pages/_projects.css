@@ -8,10 +8,14 @@
   width: 497px;
   height: 385px;
   position: absolute;
-  bottom: 252px;
+  bottom: 430px;
   left: 50%;
   margin-left: -249px;
   z-index: -1;
+}
+#projects #projects-inner {
+  margin-top: 60px;
+  display: inline-block;
 }
 #projects #projects-container {
   width: 459px;
@@ -32,7 +36,7 @@
   margin-bottom: 230px;
 }
 #projects #projects-container ul {
-  bottom: 160px;
+  bottom: 320px;
 }
 
 /* Arrows */
@@ -54,7 +58,7 @@
 }
 #projects #projects-container .project .info .bottom-lnks {
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 #projects #projects-container .project .info .bottom-lnks a {
   text-decoration: none;
@@ -67,6 +71,10 @@
   padding-bottom: 3px;
   padding-right: 10px;
   padding-left: 10px;
+  border: 1px solid #383838;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
 }
 #projects #projects-container .project .info .bottom-lnks a:visited {
   color: #383838;
@@ -77,16 +85,21 @@
 }
 #projects #projects-container .project .info .txt {
   display: block;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 #projects #projects-container .project .info .ability {
   background-color: #808080;
   color: #FFFFFF;
+  display: inline-block;
   margin-right: 6px;
+  margin-top: 8px;
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
+}
+#projects #projects-container .project .lnk.inactive {
+  cursor: not-allowed;
 }
 #projects .slick-dots {
   padding-bottom: 40px;
