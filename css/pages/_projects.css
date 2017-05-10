@@ -5,10 +5,10 @@
   margin-bottom: 45px;
 }
 #projects .mac {
-  width: 498px;
+  width: 497px;
   height: 385px;
   position: absolute;
-  bottom: 136px;
+  bottom: 159px;
   left: 50%;
   margin-left: -249px;
   z-index: -1;
@@ -51,4 +51,7 @@
   font-style: italic;
   font-size: 15px;
   line-height: 23px;
+}
+#projects .slick-dots {
+  padding-bottom: 40px;
 }

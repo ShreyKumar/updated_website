@@ -1,4 +1,12 @@
+//hide everything at first except loading screen
+window.onload = function(){
+  console.log("hello");
+}
 $(function(){
+  //$("section:not(#loading), footer").hide();
+  $(window).on("load", function(){
+    console.log("wut");
+  });
   $(".start").mouseenter(function(){
     if($(".startu").hasClass("off")){
       $(".startu").animate({
