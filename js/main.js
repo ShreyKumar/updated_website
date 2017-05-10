@@ -1,6 +1,6 @@
 //hide everything at first except loading screen
 $(document).ready(function(){
-  $("#loading").hide();
+  $("#loading").fadeOut();
   $("body").css("overflow", "auto");
 })
 
@@ -54,7 +54,7 @@ $(function(){
 
   $("#projects-container").slick({
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 5000,
     dots: true,
     nextArrow: "<i class='fa fa-chevron-circle-right next-arrow'></i>",
     prevArrow: "<i class='fa fa-chevron-circle-left prev-arrow'></i>"
