@@ -29,6 +29,12 @@
 
 /* Smart phones */
 @media screen and (max-width: 320px) {
+  /* General */
+  .prev-arrow,
+  .next-arrow {
+    display: none !important;
+  }
+
   /* Home Screen */
   #home .start a:not(.resp),
   #home .startu{
@@ -109,11 +115,6 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  #about #testimonials .next-arrow,
-  #about #testimonials .prev-arrow {
-    /* Double check this later */
-    display: none !important;
-  }
 
   /* eduwork section */
   #eduwork .eduwork-head.title {
@@ -153,6 +154,31 @@
     text-align: left;
     margin-bottom: 20px;
   }
+
+  /* Projects page */
+  #projects .mac {
+    width: 246px;
+    height: 194px;
+    margin-left: -124px;
+    bottom: 693.5px;
+  }
+  #projects .project img {
+    height: 126px;
+    margin-bottom: 172px;
+  }
+  #projects #projects-container {
+    width: 227px;
+  }
+  #projects .slick-dots {
+    padding-bottom: 300px;
+  }
+  #projects #projects-container .project .info .bottom-lnks a:first-child {
+    margin-bottom: 7px;
+  }
+  #projects #projects-container .project .info .txt {
+
+  }
+
 
   /* Contact page */
   #contact .align-left,
