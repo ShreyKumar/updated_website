@@ -13,6 +13,10 @@
   margin-right: auto;
   margin-bottom: 100px;
 }
+#home .start a.resp {
+  font-size: 45px;
+  display: none;
+}
 #home .start,
 #home .lnk {
   width: 150px;

@@ -29,6 +29,17 @@
 
 /* Smart phones */
 @media screen and (max-width: 320px) {
+  /* Home Screen */
+  #home .start a:not(.resp),
+  #home .startu{
+    display: none;
+  }
+  #home .start a.resp {
+    display: inline-block;
+    margin-top: -25px;
+    margin-bottom: 13px;
+  }
+
   #about, #education, #eduwork, #projects, #contact, footer {
     padding-left: 0px;
     padding-right: 0px;
@@ -102,6 +113,58 @@
   #about #testimonials .prev-arrow {
     /* Double check this later */
     display: none !important;
+  }
+
+  /* eduwork section */
+  #eduwork .eduwork-head.title {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #eduwork ul .event:last-child {
+    height: auto;
+  }
+  #eduwork #timeline .event.event-intern img {
+    position: initial;
+    top: initial;
+    right: initial;
+    height: 120px;
+    width: 120px;
+  }
+  #eduwork #timeline .event:last-child img {
+    height: 140px;
+  }
+  #eduwork #timeline .details .logo-img {
+    margin-top: 25px;
+  }
+  #eduwork #timeline .event.event-intern .desc,
+  #eduwork ul .event .date {
+    width: 100%;
+  }
+  #eduwork ul .event .title,
+  #eduwork #timeline .event.event-intern .desc {
+    padding-right: 20px;
+  }
+  #eduwork ul .event .title {
+    line-height: 25px;
+  }
+  #eduwork ul .event .date {
+    position: initial;
+    padding-left: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  /* Contact page */
+  #contact .align-left,
+  #contact .align-right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #contact .align-right .lnks {
+    font-size: 17px;
+  }
+  #contact .align-right .lnks > i {
+    font-size: 20px;
   }
 
 }
