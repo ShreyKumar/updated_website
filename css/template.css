@@ -126,7 +126,7 @@ section:not(#loading), footer {
   background-image: url("../img/bg.jpg");
   background-size: cover;
   */
-  height: 660px;
+  height: 702px;
 }
 #about, #education, #eduwork, #projects, #contact, footer {
   padding-left: 80px;

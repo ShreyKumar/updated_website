@@ -30,9 +30,34 @@
 /* Smart phones */
 @media screen and (max-width: 320px) {
   /* General */
+  #about, #education, #eduwork, #projects, #contact, footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .prev-arrow,
   .next-arrow {
     display: none !important;
+  }
+  #home .bars {
+    display: inline-block;
+  }
+  #home {
+    margin-top: 0;
+  }
+  #home nav .outer-lnk {
+    width: 100%;
+  }
+  #home nav {
+    display: none;
+    position: absolute;
+    height: auto;
+    background-color: rgb(76,172,255);
+    padding-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    margin-top: 40px;
   }
 
   /* Home Screen */
@@ -46,10 +71,6 @@
     margin-bottom: 13px;
   }
 
-  #about, #education, #eduwork, #projects, #contact, footer {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
   /* About section */
   #about .desc,
   #about .dp-img,
