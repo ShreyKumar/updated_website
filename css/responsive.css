@@ -166,5 +166,21 @@
   #contact .align-right .lnks > i {
     font-size: 20px;
   }
+  #contact .align-right .lnks button i {
+    position: relative;
+    display: inline;
+    left: initial;
+    top: initial;
+    text-align: center;
+  }
+  #contact .align-right .lnks button .txt {
+    display: none;
+  }
+  footer > .lnks:last-child {
+    text-align: center;
+  }
+  footer > .lnks {
+    margin-bottom: 60px;
+  }
 
 }

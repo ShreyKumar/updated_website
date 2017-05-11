@@ -71,6 +71,7 @@
 #contact .align-right .lnks a {
   text-decoration: none;
   color: inherit;
+  word-break: break-all;
 }
 #contact .align-right .lnks a:hover {
   text-decoration: underline;
