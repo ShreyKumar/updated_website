@@ -28,7 +28,7 @@
 }
 
 /* Smart phones */
-@media screen and (max-width: 320px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* General */
   #about, #education, #eduwork, #projects, #contact, footer {
     padding-left: 0px;

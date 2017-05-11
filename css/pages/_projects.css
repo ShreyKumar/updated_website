@@ -5,7 +5,7 @@
   margin-bottom: 45px;
 }
 #projects .mac {
-  width: 497px;
+  width: 498px;
   height: 382px;
   position: absolute;
   bottom: 431px;
@@ -36,7 +36,7 @@
   margin-bottom: 230px;
 }
 #projects #projects-container ul {
-  bottom: 320px;
+  bottom: 334px;
 }
 
 /* Arrows */
@@ -86,7 +86,7 @@
 #projects #projects-container .project .info .txt {
   display: block;
   margin-bottom: 40px;
-  min-height: 230px;
+  min-height: 110px;
 }
 #projects #projects-container .project .info .ability {
   background-color: #808080;
