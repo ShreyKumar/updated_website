@@ -4,7 +4,7 @@ $(function(){
     $("nav").slideToggle();
   })
   $(window).resize(function(){
-    if($(window).width() > 337){
+    if($(window).width() > 320){
       $("nav").show();
     } else {
       $("nav").hide();
