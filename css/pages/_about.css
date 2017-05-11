@@ -5,54 +5,53 @@
   -moz-border-radius: 180px 180px 180px 180px;
   -webkit-border-radius: 180px 180px 180px 180px;
 }
+#about .dp-img img {
+  float: right;
+}
+#about .dp-img {
+  width: 25%;
+  margin-right: 5%;
+}
+#about .desc,
+#about #skills {
+  width: 70%;
+}
+#about .dp-img,
+#about .desc {
+  float: left;
+}
 #about #profile {
   position: relative;
   height: 230px;
-}
-#about #profile .desc {
-  position: absolute;
-  top: 0;
-  margin-left: 30%;
-  line-height: 22px;
-  margin-top: 0;
+  margin-bottom: 110px;
 }
 #about #expertice {
   position: relative;
 }
-#about #skills,
-#about #ratings {
-  list-style-type: none;
-  font-size: 17px;
-  width: 50%;
-}
 #about #skills {
-  padding-left: 0;
-}
-#about #skills li,
-#about #ratings li {
   display: block;
-  height: 50px;
-  margin-left: 26%;
-}
-#about #ratings .fa-star-o {
-  color: #adabab;
-}
-#about #ratings .fa-star,
-#about #ratings .fa-star-half-o {
-  color: #353535;
+  height: auto;
+  min-height: 20px;
+  padding-left: 0;
+  float: right;
 }
 #about #skills li {
-  padding-top: 10px;
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+  background-color: #808080;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-right: 8px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-style: italic;
 }
-#about #ratings li {
-  font-size: 40px;
-}
-#about #ratings {
-  position: absolute;
-  margin: 0;
-  top: 0;
-  right: 0;
-}
+
+/* TESTIMONIALS */
 #about #testimonials {
   height: 170px;
   position: relative;
