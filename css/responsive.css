@@ -23,6 +23,43 @@
   }
 
   /* Home Screen */
-  
 
+
+}
+
+/* Smart phones */
+@media screen and (max-width: 320px) {
+  #about, #education, #eduwork, #projects, #contact, footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* About section */
+  #about .desc,
+  #about .dp-img,
+  #about #skills {
+    width: 100%;
+  }
+  #about .dp-img {
+    margin-right: 0;
+    position: relative;
+    height: 220px;
+  }
+  #about .dp-img img {
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -106px;
+  }
+  #about .desc,
+  #about #skills {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #about #skills {
+    margin-bottom: 50px;
+  }
+  #about .desc {
+    text-align: center;
+  }
 }
