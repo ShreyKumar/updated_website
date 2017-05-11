@@ -62,4 +62,46 @@
   #about .desc {
     text-align: center;
   }
+
+  /* Testimonials section */
+  #about .testi .title,
+  #about .testi .name,
+  #about .testi .pic {
+    width: 100%;
+  }
+  #about .testi .title,
+  #about .testi .name {
+    text-align: center;
+  }
+  #about .testi .pic img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #about #testimonials {
+    /* height: 500px; */
+  }
+
+  #about .testi .basic,
+  #about .testi .rec {
+    width: 100%;
+  }
+  #about .testi .basic {
+    margin-bottom: 20px;
+  }
+  #about .testi .rec {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  #about .testi {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #about #testimonials .next-arrow,
+  #about #testimonials .prev-arrow {
+    /* Double check this later */
+    display: none !important;
+  }
+
 }
