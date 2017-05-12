@@ -99,6 +99,9 @@
   padding-top: 3px;
   padding-bottom: 3px;
 }
+#projects #projects-container .project .info .ability.bugs {
+  background-color: #ff4848;
+}
 #projects #projects-container .project .lnk.inactive {
   cursor: not-allowed;
 }

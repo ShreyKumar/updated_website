@@ -1,5 +1,46 @@
 /* Responsiveness */
+
+/* Smaller Ipads */
+@media screen and (max-width: 768px) {
+  #about #profile .dp-img img {
+    width: 150px;
+    height: 150px;
+    margin-top: 35px;
+    float: left;
+  }
+}
+
+/* Ipads */
 @media screen and (max-width: 1024px) {
+  /* General */
+  .prev-arrow,
+  .next-arrow {
+    display: none !important;
+  }
+
+  #about, #education, #eduwork, #projects, #contact, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* About section */
+  /* Testimonials section */
+  #about #profile {
+    margin-bottom: 170px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* eduwork section */
+  #eduwork ul .event .date {
+    position: initial;
+    padding-left: 0;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  /* Contact section */
   #contact .align-right {
     padding-top: 66px;
     padding-left: 0px;
@@ -8,7 +49,6 @@
   #contact .align-left {
     width: 100%;
   }
-  /* Double check on your phone */
   #contact .align-right::before {
     position: absolute;
     top: 20px;
@@ -22,8 +62,13 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#525252',GradientType=1 ); /* IE6-9 */
   }
 
-  /* Home Screen */
-
+  /* footer */
+  footer > .lnks:last-child {
+    text-align: center;
+  }
+  footer > .lnks {
+    margin-bottom: 60px;
+  }
 
 }
 
@@ -35,10 +80,7 @@
     padding-right: 0px;
   }
 
-  .prev-arrow,
-  .next-arrow {
-    display: none !important;
-  }
+  /* Home Screen */
   #home .bars {
     display: inline-block;
   }
@@ -60,7 +102,6 @@
     margin-top: 40px;
   }
 
-  /* Home Screen */
   #home .start a:not(.resp),
   #home .startu{
     display: none;
@@ -169,12 +210,6 @@
   #eduwork ul .event .title {
     line-height: 25px;
   }
-  #eduwork ul .event .date {
-    position: initial;
-    padding-left: 0;
-    text-align: left;
-    margin-bottom: 20px;
-  }
 
   /* Projects page */
   #projects .mac {
@@ -222,12 +257,6 @@
   }
   #contact .align-right .lnks button .txt {
     display: none;
-  }
-  footer > .lnks:last-child {
-    text-align: center;
-  }
-  footer > .lnks {
-    margin-bottom: 60px;
   }
 
 }
