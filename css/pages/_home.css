@@ -6,9 +6,6 @@
   font-size: 35px;
   color: #000000;
 }
-#home .bars:hover > i {
-  color: #808080;
-}
 #home .bars:visited {
   color: #000000;
 }

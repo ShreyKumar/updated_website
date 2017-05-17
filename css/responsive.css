@@ -128,7 +128,7 @@
     display: block;
     position: absolute;
     left: 50%;
-    margin-left: -106px;
+    margin-left: -76px;
   }
   #about .desc,
   #about #skills {
@@ -176,6 +176,11 @@
   #about .testi {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  #about #profile {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -30px;
   }
 
   /* eduwork section */
