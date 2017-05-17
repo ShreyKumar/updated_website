@@ -1,0 +1,18 @@
+/*
+ *  End Screen styles
+*/
+#q5 .score {
+  left: calc(100% - 722px);
+  top: 130px;
+  text-align: center;
+}
+#q5 .score .score-placeholder {
+    display: inline-block;
+    width: 100%;
+    font-size: 50px;
+}
+#q5 .play-again {
+  top: 235px;
+  right: calc(100% - 463px);
+  font-weight: normal;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz!</title>
+    <link href="quiz.css" rel="stylesheet" media="screen" />
+  </head>
+  <body>
+    <header>
+      <h1>Quiz!</h1>
+    </header>
+
+    <section id="q1" class="question-card active">
+      <div class="score">Score: <span class="score-placeholder">0</span></div>
+      <div class="question">
+          The first electronic computer in Canada was housed in the Computer
+          Science Department at the U of T.  What was its name?
+      </div>
+      <div class="options">
+        <a href="#" class="display-all">Display all hints</a>
+        <div class="option">
+          <div class="info">
+            <span>A</span> HAL 9000
+          </div>
+          <div class="explanation">
+            The HAL 9000 is a fictional computer from Arthur C. Clarke's 2001:
+             A Space Odyssey.
+          </div>
+        </div>
+        <div class="option">
+          <div class="info">
+            <span>B</span> FERUT
+          </div>
+          <div class="explanation">
+            The machine arrived in Canada on April 30, 1952.  Named FERUT
+            (FERranti U of T), it was used to compute changes in water levels
+            due to the opening of the St. Lawrence Seaway.
+          </div>
+        </div>
+        <div class="option">
+          <div class="info">
+            <span>C</span> ILLIAC
+          </div>
+          <div class="explanation">
+            The ILLIAC was built at the University of Illinois. It was the
+            first von Neumann architecture computer built and owned by an
+            American university. It was put into service on
+            September 22, 1952.
+          </div>
+        </div>
+        <div class="option">
+          <div class="info">
+            <span>D</span> UNIVAC
+          </div>
+          <div class="explanation">
+            The UNIVAC was the first commericial computer produced in
+            the United States, and was designed by J. Presper Eckert and
+            John Mauchly.  The United States Census Department received
+            delivery of the first UNIVAC in May 1952.
+          </div>
+        </div>
+      </div>
+      <div class="timer">
+        Starting next question in <span class="countdown">5</span>...
+        <br /> Get Ready!
+      </div>
+      <div class="bottom_links">
+        <a href="" class="prev inactive">Previous</a>
+        <a href="#q2" class="next">Next</a>
+      </div>
+    </section>
+
+    <section id="q2" class="question-card">
+      <div class="score">Score: <span class="score-placeholder">0</span></div>
+      <div class="question">
+          University of Toronto Professors Kelly Gotlieb and Pat Hume are
+          credited in the Oxford English Dictionary with early published use
+          of more than 10 words used in the vocabulary of computing from
+          their 1958 book, "High-speed Data Processing". <br /><br />
+          Which two of the following are *not* words for which they are quoted in the OED?
+      </div>
+      <div class="options">
+        <div class="option">
+          <span>A</span>
+          <span class="answer">loop</span>
+        </div>
+        <div class="option">
+          <span>B</span>
+          <span class="answer">inline</span>
+        </div>
+        <div class="option">
+          <span>C</span>
+          <span class="answer">keyboard</span>
+        </div>
+        <div class="option">
+          <span>D</span>
+          <span class="answer">interpreter</span>
+        </div>
+        <div class="option">
+          <span>E</span>
+          <span class="answer">function</span>
+        </div>
+        <div class="option">
+          <span>F</span>
+          <span class="answer">character</span>
+        </div>
+        <div class="option">
+          <span>G</span>
+          <span class="answer">variable</span>
+        </div>
+      </div>
+      <div class="explanation"></div>
+
+      <div class="timer">
+        Starting next question in <span class="countdown">5</span>...  <br /> Get Ready!
+      </div>
+      <p>Remember to click <b>Check my answers</b> first in order to record your score!</p>
+      <!-- submit button added as said in instructions -->
+      <a href="#" class="check inactive">Check my answers</a>
+
+      <div class="bottom_links">
+        <a href="#q2" class="prev">Previous</a>
+        <a href="#q3" class="next">Next</a>
+      </div>
+    </section>
+
+    <section id="q3" class="question-card">
+      <div class="score">Score: <span class="score-placeholder">0</span></div>
+      <div class="question">
+          Match the CS Professor with his or her claim to fame:
+      </div>
+      <div class="options a">
+        <div class="option option-a"><span>A</span> Daniel Wigdor</div>
+        <div class="option option-b"><span>B</span> Stephen Cook</div>
+        <div class="option option-c"><span>C</span> Geoff Hinton </div>
+        <div class="option option-d"><span>D</span> Karan Singh</div>
+        <div class="option option-e"><span>E</span> Diane Horton</div>
+        <div class="option option-f"><span>F</span> Raquel Urtasun</div>
+        <div class="option option-g"><span>G</span> David Levin</div>
+        <div class="option option-h"><span>H</span> Mike Brudno</div>
+      </div>
+      <div class="options b">
+        <div class="option option-d"><span>A</span> Academy Award for Ryan
+          (software research and development director)</div>
+        <div class="option option-a"><span>B</span> Taught a first-year course while an
+          undergraduate student in our department</div>
+        <div class="option option-g"><span>C</span> Associate Research Scientist at Disney
+          Research before joining the faculty</div>
+        <div class="option option-e"><span>D</span> Winner of both the President's
+          Teaching Award and OCUFA teaching award</div>
+        <div class="option option-c"><span>E</span> Pioneer in machine learning, now
+          Distinguished Researcher at Google </div>
+        <div class="option option-f"><span>F</span> Canada Research Chair in Machine
+          Learning and Computer Vision, researching self-driving cars</div>
+        <div class="option option-h"><span>G</span> Scientific Director of the Centre for
+          Computational Medicine at Sick Kids Hospital</div>
+        <div class="option option-b"><span>H</span> Turing Award winner for work in
+          computational complexity</div>
+      </div>
+      <div class="explanation"></div>
+      <div class="timer">
+        Starting next question in <span class="countdown">5</span>...  <br /> Get Ready!
+      </div>
+      <div class="bottom_links">
+        <a href="#" class="prev">Previous</a>
+        <a href="#" class="next">Next</a>
+      </div>
+    </section>
+
+    <section id="q4" class="question-card">
+      <div class="score">Score: <span class="score-placeholder">0</span></div>
+      <div class="question">
+          Arrange by year of invention from oldest to newest:<br />
+          (Click 2 options to swap them around)
+      </div>
+      <div class="options">
+        <div class="option correct-2">
+          <span class="info">The First Computer Network</span>
+          <span class="date"> 1940</span>
+        </div>
+        <div class="option correct-7">
+          <span class="info">First Microprocessor: Intel 4004 </span>
+          <span class="date"> 1971</span>
+        </div>
+        <div class="option correct-5">
+          <span class="info">First Popular High-Level Language: FORTRAN<br />
+          </span>
+          <span class="date"> 1957 (John Backus)</span>
+        </div>
+        <div class="option correct-4">
+          <span class="info">First Open Source Software: A-2 System</span>
+          <span class="date"> 1953</span>
+        </div>
+        <div class="option correct-3">
+          <span class="info">First Compiler for Electronic Computer:
+            A-0 System<br /></span>
+          <span class="date"> 1951 (Grace Hopper)</span>
+        </div>
+        <div class="option correct-1">
+          <span class="info">First Computer Program<br /></span>
+          <span class="date"> 1841  (Ada Lovelace)</span>
+        </div>
+        <div class="option correct-6">
+          <span class="info">First Object Oriented Programming Language:
+            Simula<br /></span>
+          <span class="date"> 1967 (Ole-Johan Dahl and Kristen
+            Nygaard)</span>
+        </div>
+      </div>
+      <div class="explanation"></div>
+      <div class="timer">
+        Finishing quiz in <span class="countdown">5</span>...
+        <br /> Get Ready!
+      </div>
+      <p>Remember to click <b>Check my answers</b> first in order to record your score!</p>
+      <a href="#" class="check inactive">Check my answers</a>
+      <div class="bottom_links">
+        <a href="" class="prev">Previous</a>
+        <a href="#q2" class="next">Finish</a>
+      </div>
+    </section>
+
+    <section id="q5" class="question-card">
+      <div class="score">Well done! Your total score is
+        <span class="score-placeholder">0</span>
+      </div>
+      <a href="#" class="play-again">Start again</a>
+    </section>
+
+    <footer>
+      Developed by <a href="http://shreykumar.com/">Shreyansh Kumar</a>
+    </footer>
+    <script type="text/javascript"
+                    src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+  </body>
+</html>

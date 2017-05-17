@@ -1,0 +1,151 @@
+/*
+ * Common styles for classes used for all questions
+ */
+.question-card:not(.active){
+  display: none;
+}
+.question-card {
+  display: block;
+  height: auto;
+  width: 800px;
+  border: 1px ridge #A9A9A9;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 50px;
+  min-height: 350px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.question {
+  margin-bottom: 25px;
+}
+.question::before {
+  content: "Q:";
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+.options::before {
+  content: "A:";
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+.question, .options {
+  font-weight: normal;
+}
+.options {
+  margin-bottom: 40px;
+  height: auto;
+  min-height: 500px;
+}
+.timer {
+  display: none;
+  margin-bottom: 40px;
+}
+.options .option {
+  border: 1px solid #202022;
+  margin-bottom: 15px;
+  height: auto;
+  min-height: 40px;
+  padding-left: 27px;
+  padding-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: normal;
+}
+.options .option span {
+  margin-right: 250px;
+  font-weight: bold;
+}
+#q1 .options {
+  position: relative;
+}
+#q1 .options .option .explanation {
+  display: none;
+}
+.options .option:hover,
+.options .option.selected,
+#q1 .options .display-all:hover,
+#q1 .options .display-all.on,
+.check:hover,
+#q5 .play-again:hover {
+    background-color: #0011ff;
+    color: #fff;
+    border-color: transparent;
+}
+.options .option.wrong {
+  background-color: #ff2d2d;
+  border: none;
+  color: #fff;
+}
+.options .option.correct {
+  background-color: #3ac136;
+  color: #fff;
+  border: none;
+}
+#q1 .options .display-all,
+.check,
+#q5 .play-again {
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #202022;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    color: #202022;
+}
+.check {
+  height: auto;
+  display: inline-block;
+  font-weight: normal;
+  right: auto;
+  top: inherit;
+}
+.explanation {
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+.bottom_links a {
+  position: absolute;
+  width: 50%;
+  bottom: -1px;
+  height: 50px;
+  text-transform: uppercase;
+  color: #202022;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+  border-top: #202022 1px solid;
+  font-weight: normal;
+}
+.bottom_links a:not(.inactive):hover {
+  background-color: #0011ff;
+  color: white;
+  border: none;
+}
+.bottom_links .prev {
+  left: -1px;
+  border-right: #202022 1px solid;
+}
+.bottom_links .next {
+  right: -1px;
+  width: 51%;
+}
+.bottom_links .inactive {
+  background-color: #ccc;
+}
+.score {
+  position: absolute;
+  top: 30px;
+  right: 52px;
+  font-weight: normal;
+}
+.score .score-placeholder {
+  font-weight: bold;
+}

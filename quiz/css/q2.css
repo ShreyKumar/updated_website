@@ -1,0 +1,10 @@
+/*
+ *  Question 2 styles
+ */
+#q2 {
+  position: relative;
+  padding-bottom: 120px;
+}
+#q2 .options .answer {
+  font-weight: normal;
+}

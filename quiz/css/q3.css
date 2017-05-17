@@ -1,0 +1,25 @@
+/*
+ * Question 3 styles
+ */
+#q3 {
+  position: relative;
+}
+#q3 .options.b {
+  display: none;
+}
+#q3 .options .option,
+#q3 .options .option .matched {
+  position: relative;
+}
+#q3 .options.a .option .matched {
+  font-weight: normal;
+  margin-left: 50px;
+  margin-right: 0;
+}
+#q3 .options.b .option .matched {
+  bottom: 0;
+  right: 25px;
+}
+#q3 .options.b .option span {
+  margin-right: 0;
+}

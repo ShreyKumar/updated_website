@@ -1,0 +1,11 @@
+/*
+ * Question 1 styles
+ */
+#q1 .explanation {
+  display: block;
+  padding-top: 20px;
+  font-weight: normal;
+  padding-bottom: 100px;
+  height: 90px;
+  margin-bottom: 15px;
+}

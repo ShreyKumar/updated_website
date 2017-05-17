@@ -1,0 +1,13 @@
+/* Import Ubuntu font family */
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+
+/* Common styles for all classes */
+@import 'css/common.css';
+@import 'css/common.classes.css';
+
+/* Question specific styles */
+@import 'css/q1.css';
+@import 'css/q2.css';
+@import 'css/q3.css';
+@import 'css/q4.css';
+@import 'css/q5.css';

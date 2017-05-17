@@ -1,0 +1,28 @@
+/*
+ * Question 4 styles
+ */
+#q4 .options .option span {
+  font-weight: normal;
+}
+#q4 .options .option {
+  padding-bottom: 10px;
+}
+#q4 .options .option .date {
+  display: none;
+}
+#q4 .check {
+  position: relative;
+  margin-bottom: 50px;
+}
+#q4 .explanation {
+  margin-bottom: 15px;
+}
+#q4 .timer {
+  margin-bottom: 38px;
+}
+#q4 .options {
+  min-height: 428px;
+}
+#q4 .options .option .date {
+  font-weight: bold;
+}
