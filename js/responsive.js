@@ -7,9 +7,8 @@ $(function(){
   $("nav .lnk a").click(function(){
     $("nav").slideUp();
   });
-  var past_length = $("#home").offset().top + $("#home").outerHeight();
   $(window).scroll(function(){
-    if($(window).scrollTop() > past_length){
+    if($(window).scrollTop() > 0){
       $("nav").slideUp();
     }
   })
