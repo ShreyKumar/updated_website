@@ -8,7 +8,7 @@ $(function(){
     $("nav").slideUp();
   });
   $(window).scroll(function(){
-    if($(window).scrollTop() > 0){
+    if($(window).width() <= 1024 && $(window).scrollTop() > 0){
       $("nav").slideUp();
     }
   })
